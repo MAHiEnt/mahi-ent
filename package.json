@@ -1,4 +1,7 @@
-{
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`MAHi Integration Engine running on port ${PORT}`);
+});{
   "name": "mahi-engine",
   "version": "1.0.0",
   "main": "server.js",
